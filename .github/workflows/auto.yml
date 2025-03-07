@@ -6,8 +6,8 @@ on:
   workflow_dispatch:
 
 env:
-  DIFY_TOKENS: ${{ secrets.DIFY_TOKENS }}
-  DIFY_BASE_URL: app-JVhNyrSNUzVHgVaC4CliRseS
+  DIFY_TOKENS: app-JVhNyrSNUzVHgVaC4CliRseS
+  DIFY_BASE_URL: https://api.dify.ai/v1
   DIFY_INPUTS: ${{ secrets.DIFY_INPUTS }}
   EMAIL_USER: ${{ secrets.EMAIL_USER }}
   EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
